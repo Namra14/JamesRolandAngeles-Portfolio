@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
 section{
     padding: 60px 0;
+    font-family: "Oswald", sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -12,7 +19,6 @@ html{
 .container > div{
     flex: 1 1 150px;
 }
-
 /* Education */
 #educ{
     padding-bottom: 100px;
@@ -20,7 +26,11 @@ html{
 
 /* programming languages */
 #skills{
-    margin-bottom: 150px;
+    margin: 150px 0;
+}
+#sk{
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 .tech{
     font-size: 30px;
@@ -51,4 +61,7 @@ html{
 }
 .boots{
     color: #7071E8;
+}
+#skills-card{
+    align-items: center;
 }

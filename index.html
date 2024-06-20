@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="history.css">
     <title>Curriculum Vitae- Angeles</title>
 
@@ -31,10 +34,10 @@
                   <a class="nav-link text-dark" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#skills">Skills</a>
+                  <a class="nav-link text-dark" href="#sk">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#educ">Education</a>
+                    <a class="nav-link text-dark" href="#feature">Education</a>
                   </li>
                 <li class="nav-item d-md-none">
                   <a class="nav-link text-dark" href="#projects">Projects</a>
@@ -57,7 +60,7 @@
                         <div class="display-3 fw-bold my-3">James Roland Angeles</div>
                         <div class="display-6 text-muted fst-italic my-3">Aspiring-Front End Developer</div>
                     </h1>
-                    <a href="index.html#aboutme" class="btn btn-outline-secondary btn-lg">About Me!</a>
+                    <a href="index.html#about-me" class="btn btn-outline-secondary btn-lg">About Me!</a>
                 </div>
                 <div class="col-md-4 text-center d-none d-md-block">
                     <img src="img/picture.jpg" alt="" class="img-fluid rounded shadow-lg">
@@ -71,7 +74,7 @@
     <section id="aboutme" class="bg-light">
         <div class="container-md">
             <div class=" text-center">
-                <h2 class="display-5 fw-bold">About Me</h2>
+                <h2 class="display-5 fw-bold" id="about-me">About Me</h2>
             </div>
 
             <div class="row my-2 g-5 justify-content-around align-items-center g-5">
@@ -132,11 +135,11 @@
         </div>
     </section>
 
-    <!--Cards-->
-    <section id="projects" class=" mt-5">
+    <!--Project Cards-->
+    <section class=" mt-5">
         <div class="container-lg">
             <div class="text-center">
-                <h2 class="display-5 fw-bold">My Projects</h2>
+                <h2 class="display-5 fw-bold" id="projects">My Projects</h2>
                 <p class="text-muted">Explore with my projects</p>
             </div>
 
@@ -189,13 +192,11 @@
     </section>
 
     <!-- Education -->
-    <section class="container">
         <div class="container text-dark text-center">
             <h3 class="display-5 p-2 fw-bold" id="feature">EDUCATION</h3>
             <div class="timeline">
 
-                <div class="container1 left-container">
-                    <img src="" alt="" class="historylogo">
+                <div class="container1 left-container shadow-lg">
                     <div class="text-box">
                         <h2>Elementary</h2>
                         <p class="text-center">
@@ -206,8 +207,7 @@
                     </div>
                 </div>
 
-                <div class="container1 right-container">
-                    <img src="img/" alt="" class="historylogo">
+                <div class="container1 right-container shadow-lg">
                     <div class="text-box">
                         <h2>Secondary</h2>
                         <p class="text-center">
@@ -218,8 +218,7 @@
                     </div>
                 </div>
 
-                <div class="container1 left-container">
-                    <img src="img/h1.png" alt="" class="historylogo">
+                <div class="container1 left-container shadow-lg">
                     <div class="text-box">
                         <h2>Tertiary</h2>
                         <p class="text-center">
@@ -230,17 +229,17 @@
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
 
-    
+
 
    <!-- SKILL SECTION -->
     <section id="skills" class="bg-light">
         <div class="container">
-                <h1 class="fw-bold text-center">SKILLS</h1>
+                <h1 class="fw-bold text-center" id="sk">SKILLS</h1>
                 <div class="row justify-content-center">
                     <div class="col-xl-6 py-2">
-                            <div class="card border-2 shadow-lg">
+                            <div class="card border-2 shadow-lg" id="skills-card">
                                 <div class="card-body text-center py-5">
     
                                     <!--Technical button-->
@@ -303,10 +302,9 @@
     <section id="prog" class="bg-light">
         <div class="container my-3">
             <div class="row justify-content-center my-5">
-                <h2 class=" display-5 text-center fw-bold">Programs</h2>
+                <h2 class=" display-5 text-center fw-bold">CERTIFICATIONS</h2>
                 <div class="col-9 col-xl-9 my-5">
                     <ul class="text-center fw-bold">
-                        <li>"13Th EdukCircle International Convention On Engineering and Computer Technology"</li>
                         <li>"Web Developemnt for Web Developers"</li>
                         <li>"Basic of Cybersecurity Incedent Response and Handling"</li>
                         <li>"Mastering Data Analysis with Power of Pivot Tables"</li>
@@ -318,10 +316,9 @@
                   
             </div>
         </div>
-
     </section>
 
-    <!--Navbar-->
+    <!--Footer-->
     <nav class="navbar navbar-expand-md navbar-light bg-light ">
         <div class="container-xxl">
             <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
