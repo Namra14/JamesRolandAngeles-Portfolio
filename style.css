@@ -1,0 +1,54 @@
+section{
+    padding: 60px 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container > div{
+    flex: 1 1 150px;
+}
+
+/* Education */
+#educ{
+    padding-bottom: 100px;
+}
+
+/* programming languages */
+#skills{
+    margin-bottom: 150px;
+}
+.tech{
+    font-size: 30px;
+}
+.offcanvas-body ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+#prog ul li{
+    font-size: 1.3rem;
+}
+.prog-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+.languages{
+    padding-bottom: 100px;
+}
+.html{
+    color: orange;
+}
+.css{
+    color: blue;
+}
+.js{
+    color: #F0DE36;
+}
+.boots{
+    color: #7071E8;
+}

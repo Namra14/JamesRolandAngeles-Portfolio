@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="history.css">
+    <title>Curriculum Vitae- Angeles</title>
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
+
+<!--Navbar TOGGLE BUTTON-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#main-nav" aria-controls="main-nav" 
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navbar LINKS-->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+              <ul class="navbar-nav fw-bold ">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#educ">Education</a>
+                  </li>
+                <li class="nav-item d-md-none">
+                  <a class="nav-link text-dark" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="btn btn-outline-dark" href="#projects">Projects</a>
+                  </li>
+                
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Intro-->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-3 fw-bold my-3">James Roland Angeles</div>
+                        <div class="display-6 text-muted fst-italic my-3">Aspiring-Front End Developer</div>
+                    </h1>
+                    <a href="index.html#aboutme" class="btn btn-outline-secondary btn-lg">About Me!</a>
+                </div>
+                <div class="col-md-4 text-center d-none d-md-block">
+                    <img src="img/picture.jpg" alt="" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Aboutme-->
+    <section id="aboutme" class="bg-light">
+        <div class="container-md">
+            <div class=" text-center">
+                <h2 class="display-5 fw-bold">About Me</h2>
+            </div>
+
+            <div class="row my-2 g-5 justify-content-around align-items-center g-5">
+                <div class="col-6 col-lg-4">
+                    <img src="img/about-pic.jpg" class="img-fluid rounded shadow-4-strong" alt="mypicture">
+                </div>
+                <div class="col-lg-8">
+                    <div class="accordion" id="about">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-1" aria-expanded="true" aria-controls="about-1">Introduction</button>
+                            </h2>
+                            <div id="about-1" class="accordion-collapse collapse show" 
+                                aria-labelledby="heading-1" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p>As an enthusiastic and aspiring front-end developer, I bring a foundational understanding of HTML, CSS, and JavaScript. 
+                                        Eager to learn and grow in a dynamic environment, I am committed to contributing my skills and passion for creating visually appealing and user-friendly web experiences.
+                                        My strong attention to detail, coupled with a proactive approach to problem-solving, positions me as a 
+                                        motivated team player ready to embark on a rewarding journey and willing to learn more about front-end development.</p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-2" aria-expanded="true" aria-controls="about-2">About My Self</button>
+                            </h2>
+                            <div id="about-2" class="accordion-collapse collapse" 
+                                aria-labelledby="heading-2" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p>I'm James Roland L. Angeles, I'm 21 Year old, currently living in Calauan Laguna. Currently Studying in Laguna State Polytechnic University SPCC. 
+                                        Eldest Son of Roberto and Novelyn Angeles and I have 1 sibling.</p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-3" aria-expanded="true" aria-controls="about-3">About My Hobbies</button>
+                            </h2>
+                            <div id="about-3" class="accordion-collapse collapse " 
+                                aria-labelledby="heading-3" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p> I like studying about Web Designing, playing Computer Games, 
+                                        and going to the gym to make myself fit and healthy. My sports are Basketball and Cycling..</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cards-->
+    <section id="projects" class=" mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="display-5 fw-bold">My Projects</h2>
+                <p class="text-muted">Explore with my projects</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-3">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <img src="img/Home.png" class="card-img-top my-3" alt="...">
+                        <div class="card-body text-center py-5">
+                          <h5 class="card-title text-dark fw-bold fs-5">Specialization/Recommendation System- UI Design</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">for College of Computer Studies in LSPU-SPCC</p>
+                          <a href="https://namra14.github.io/SpecializationRecommendationUI-Design/" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-secondary border-2">
+                        <img src="img/cv.jpg" class="card-img-top my-3" alt="...">
+                        <div class="card-body text-center py-5 my-4">
+                          <h5 class="card-title text-dark fw-bold">My Curriculum Vitae</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Using HTML, CSS and BOOTSTRAP</p>
+                          <a href="https://namra14.github.io/JamesAngeles-CV/" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <img src="img/aw.png" class="card-img-top " alt="...">
+                        <div class="card-body text-center py-5 my-3">
+                          <h5 class="card-title text-dark fw-bold">Online Agriculture Insurance Registry System- UI Design</h5>
+                          <a href="https://github.com/Namra14/UI-3k.git" class="btn btn-outline-secondary my-4">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-secondary border-2">
+                        <img src="img/bike.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center py-5">
+                          <h5 class="card-title text-dark fw-bold">Bike Online Shop</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Choose what time of Bikes, Equipments and Gears you want!! </p>
+                          <a href="https://github.com/Namra14/Bike-shop.git" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Education -->
+    <section class="container">
+        <div class="container text-dark text-center">
+            <h3 class="display-5 p-2 fw-bold" id="feature">EDUCATION</h3>
+            <div class="timeline">
+
+                <div class="container1 left-container">
+                    <img src="" alt="" class="historylogo">
+                    <div class="text-box">
+                        <h2>Elementary</h2>
+                        <p class="text-center">
+                            <span class="fw-bold py-5">2008-2014</span><br><br>
+                            Lamot 2 Annex Elementary School
+                        </p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="container1 right-container">
+                    <img src="img/" alt="" class="historylogo">
+                    <div class="text-box">
+                        <h2>Secondary</h2>
+                        <p class="text-center">
+                            <span class="fw-bold py-5">2014-2020</span><br><br>
+                            Liceo de Calauan
+                        </p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="container1 left-container">
+                    <img src="img/h1.png" alt="" class="historylogo">
+                    <div class="text-box">
+                        <h2>Tertiary</h2>
+                        <p class="text-center">
+                            <span class="fw-bold py-5">20200-2024</span><br><br>
+                            Laguna State Polytechnic University - San Pablo City Campus
+                        </p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    
+
+   <!-- SKILL SECTION -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+                <h1 class="fw-bold text-center">SKILLS</h1>
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 py-2">
+                            <div class="card border-2 shadow-lg">
+                                <div class="card-body text-center py-5">
+    
+                                    <!--Technical button-->
+                                    <button class="btn btn-outline-dark btn-md mx-5 fw-bolder" type="button" data-bs-toggle="offcanvas" 
+                                    data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Technical</button>
+
+                                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 id="offcanvasLeftLabel" class="fw-bold tech">Technical Skills</h5>
+                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <ul>
+                                                <li>HTML5</li>
+                                                <li>CSS</li>
+                                                <li>JAVASCRIPT</li>
+                                                <li>BOOSTRAP</li>
+                                                <li>React</li>
+                                                <li>MySQL</li>
+                                                <li>Git Version Control System</li>
+                                                <li>Github</li>
+                                                <li>Web Designing</li>
+                                                <li>Responsive Design</li>
+                                                <li>UI/UX Design</li>
+                                                <li>Web Performance Optimization</li>
+                                                <li>Website Troubleshooting</li>
+                                                <li>Hardware and Software Troubleshooting</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!--Professional button-->
+                                    <button class="btn btn-outline-dark btn-md mx-5 fw-bolder" type="button" data-bs-toggle="offcanvas" 
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Professional</button>
+
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 id="offcanvasRightLabel" class="fw-bold prof">Professional Skills</h5>
+                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <ul>
+                                                <li>Collaboration and Communication</li>
+                                                <li>Adaptability</li>
+                                                <li>Critical ThinkingCritical Thinking</li>
+                                                <li>Team Work</li>
+                                                <li>Problem-Solving</li>
+                                                <li>Willing to Learn</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--Certifications-->
+    <section id="prog" class="bg-light">
+        <div class="container my-3">
+            <div class="row justify-content-center my-5">
+                <h2 class=" display-5 text-center fw-bold">Programs</h2>
+                <div class="col-9 col-xl-9 my-5">
+                    <ul class="text-center fw-bold">
+                        <li>"13Th EdukCircle International Convention On Engineering and Computer Technology"</li>
+                        <li>"Web Developemnt for Web Developers"</li>
+                        <li>"Basic of Cybersecurity Incedent Response and Handling"</li>
+                        <li>"Mastering Data Analysis with Power of Pivot Tables"</li>
+                    </ul>
+                </div>
+
+            </div>
+
+                  
+            </div>
+        </div>
+
+    </section>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
+
+<!--Navbar TOGGLE BUTTON-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#main-nav" aria-controls="main-nav" 
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navbar LINKS-->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+              <ul class="navbar-nav fw-bold ">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Galery</a>
+                  </li>
+                <li class="nav-item d-md-none">
+                  <a class="nav-link text-dark" href="#works">Projects</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="btn btn-outline-dark" href="#works">Projects</a>
+                  </li>
+                
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
