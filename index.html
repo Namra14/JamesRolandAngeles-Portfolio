@@ -17,8 +17,8 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light ">
-        <div class="container-xxl">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
             <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
 
 <!--Navbar TOGGLE BUTTON-->
@@ -53,35 +53,55 @@
 
     <!--Intro-->
     <section id="intro">
-        <div class="container-lg">
+        <div class="container-fluid">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
                     <h1>
-                        <div class="display-3 fw-bold my-3">James Roland Angeles</div>
-                        <div class="display-6 text-muted fst-italic my-3">Aspiring-Front End Developer</div>
+                        <div class="display-4 fw-bold my-3">James Roland Angeles</div>
+                        <h3 class="text-muted fst-italic my-3">BS Information Technology Graduate</h3>
                     </h1>
-                    <a href="index.html#about-me" class="btn btn-outline-secondary btn-lg">About Me!</a>
+                    <a href="index.html#about-me" class="btn btn-outline-secondary btn-lg mt-3">About Me!</a>
                 </div>
                 <div class="col-md-4 text-center d-none d-md-block">
-                    <img src="img/picture.jpg" alt="" class="img-fluid rounded shadow-lg">
+                    <img src="img/Grad-pic.png" alt="" class="img-fluid rounded">
                 </div>
             </div>
         </div>
-
     </section>
 
     <!--Aboutme-->
     <section id="aboutme" class="bg-light">
-        <div class="container-md">
+        <div class="container-xl">
             <div class=" text-center">
                 <h2 class="display-5 fw-bold" id="about-me">About Me</h2>
             </div>
 
             <div class="row my-2 g-5 justify-content-around align-items-center g-5">
-                <div class="col-6 col-lg-4">
+                <!-- <div class="col-6 col-lg-4">
                     <img src="img/about-pic.jpg" class="img-fluid rounded shadow-4-strong" alt="mypicture">
+                </div> -->
+                <!-- Carousel -->
+                <div class="col-12 col-md-4">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner shadow-lg">
+                            <div class="carousel-item active">
+                                <img src="img/about-pic.jpg" alt="My Pictures">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/a1.jpg"alt="My Pictures">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/p1.jpg" alt="My Pictures">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/a2.jpg" alt="My Pictures">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-8">
+
+                <!-- Accordion -->
+                <div class="col-12 col-md-8">
                     <div class="accordion" id="about">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="heading-1">
@@ -91,10 +111,13 @@
                             <div id="about-1" class="accordion-collapse collapse show" 
                                 aria-labelledby="heading-1" data-bs-parent="#about">
                                 <div class="accordion-body">
-                                    <p>As an enthusiastic and aspiring front-end developer, I bring a foundational understanding of HTML, CSS, and JavaScript. 
-                                        Eager to learn and grow in a dynamic environment, I am committed to contributing my skills and passion for creating visually appealing and user-friendly web experiences.
-                                        My strong attention to detail, coupled with a proactive approach to problem-solving, positions me as a 
-                                        motivated team player ready to embark on a rewarding journey and willing to learn more about front-end development.</p>
+                                    <p>I am an enthusiastic and innovative Information Technology graduate with a
+                                        specialization in Web and Mobile Application Development, eager to embark on a
+                                        dynamic career path. Seeking a position with a forward-thinking organization
+                                        where I can apply my creative mentality, technical expertise, and passion for
+                                        cutting-edge technology to make a meaningful contribution. I am excited to be a
+                                        part of a team that values continuous learning, encourages growth, and pushes
+                                        the boundaries of what is possible in the field of technology.</p>
                                         
                                 </div>
                             </div>
@@ -108,8 +131,9 @@
                             <div id="about-2" class="accordion-collapse collapse" 
                                 aria-labelledby="heading-2" data-bs-parent="#about">
                                 <div class="accordion-body">
-                                    <p>I'm James Roland L. Angeles, I'm 21 Year old, currently living in Calauan Laguna. Currently Studying in Laguna State Polytechnic University SPCC. 
-                                        Eldest Son of Roberto and Novelyn Angeles and I have 1 sibling.</p>
+                                    <p>My name is James Roland L. Angeles, and I currently reside in Calauan Laguna.
+                                         I am 22 years old. I am the eldest son of Roberto and Novelyn Angeles, 
+                                         and I am a student at Laguna State Polytechnic University SPCC. I have one brother.</p>
                                         
                                 </div>
                             </div>
@@ -123,8 +147,8 @@
                             <div id="about-3" class="accordion-collapse collapse " 
                                 aria-labelledby="heading-3" data-bs-parent="#about">
                                 <div class="accordion-body">
-                                    <p> I like studying about Web Designing, playing Computer Games, 
-                                        and going to the gym to make myself fit and healthy. My sports are Basketball and Cycling..</p>
+                                    <p>I enjoy playing online games and learning about web design. 
+                                        and visiting the gym to maintain my health and fitness. Cycling and basketball are my sports.</p>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +161,7 @@
 
     <!--Project Cards-->
     <section class=" mt-5">
-        <div class="container-lg">
+        <div class="container-xxl">
             <div class="text-center">
                 <h2 class="display-5 fw-bold" id="projects">My Projects</h2>
                 <p class="text-muted">Explore with my projects</p>
@@ -157,11 +181,11 @@
 
                 <div class="col-8 col-lg-4 col-xl-3">
                     <div class="card border-secondary border-2">
-                        <img src="img/cv.jpg" class="card-img-top my-3" alt="...">
+                        <img src="img/Artuks.png" class="card-img-top my-3" alt="...">
                         <div class="card-body text-center py-5 my-4">
-                          <h5 class="card-title text-dark fw-bold">My Curriculum Vitae</h5>
-                          <p class="card-text mx-5 text-muted d-none d-lg-block">Using HTML, CSS and BOOTSTRAP</p>
-                          <a href="https://namra14.github.io/JamesAngeles-CV/" class="btn btn-outline-secondary mt-3">Explore</a>
+                          <h5 class="card-title text-dark fw-bold">Artuks Sportswear</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Using HTML, CSS and PHP</p>
+                          <a href="https://artukssportswear.000webhostapp.com/index.html?fbclid=IwZXh0bgNhZW0CMTAAAR20CapmOwxUrUL6I2Kz_otAlk9gfsv_MxzmEWtdjiI8DKRLHuRNNbnmBmM_aem_jMQRoffsgqqA_-Oe0slHYg" class="btn btn-outline-secondary mt-3">Explore</a>
                         </div>
                       </div>
                 </div>
@@ -235,7 +259,7 @@
 
    <!-- SKILL SECTION -->
     <section id="skills" class="bg-light">
-        <div class="container">
+        <div class="container-fluid">
                 <h1 class="fw-bold text-center" id="sk">SKILLS</h1>
                 <div class="row justify-content-center">
                     <div class="col-xl-6 py-2">
@@ -304,10 +328,10 @@
             <div class="row justify-content-center my-5">
                 <h2 class=" display-5 text-center fw-bold">CERTIFICATIONS</h2>
                 <div class="col-9 col-xl-9 my-5">
-                    <ul class="text-center fw-bold">
-                        <li>"Web Developemnt for Web Developers"</li>
-                        <li>"Basic of Cybersecurity Incedent Response and Handling"</li>
-                        <li>"Mastering Data Analysis with Power of Pivot Tables"</li>
+                    <ul class="text-center fw-bold list-unstyled cert">
+                        <li><a href="https://drive.google.com/file/d/1gLul15Uk8U-27kVmPpIZ4ib12t7ZI0ol/view?usp=sharing" class=" text-dark" target="_blank">"Web Developemnt for Web Developers"</a></li>
+                        <li><a href="https://drive.google.com/file/d/1gCMgV7K1qqJqZcG7UEmQV3siftBsumla/view?usp=sharing" class=" text-dark" target="_blank">"Basic of Cybersecurity Incedent Response and Handling"</a></li>
+                        <li><a href="https://drive.google.com/file/d/1gMQ7iy4N_4C1_bnlVkVT0n3edhXhPqJx/view?usp=sharing" class=" text-dark" target="_blank">"Mastering Data Analysis with Power of Pivot Tables"</a></li>
                     </ul>
                 </div>
 
@@ -319,11 +343,38 @@
     </section>
 
     <!--Footer-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light ">
-        <div class="container-xxl">
+    <footer class="footer text-dark text-center mt-5">
+        <div class="container-fluid py-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="fw-bold">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-telephone-fill"></i>09772717552</li>
+                        <li><i class="bi bi-envelope-at-fill"></i>jamesangeles0314@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="fw-bold">Follow Me</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/SantiagoAngeless" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/james_otiago/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/james-roland-l-angeles-770a822b6/?originalSubdomain=ph" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <p>&copy; 2024 James Roland L. Angeles. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
             <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
 
-<!--Navbar TOGGLE BUTTON-->
+        <!--Navbar TOGGLE BUTTON-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#main-nav" aria-controls="main-nav" 
             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
@@ -336,16 +387,16 @@
                   <a class="nav-link text-dark" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">Features</a>
+                  <a class="nav-link text-dark" href="#sk">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Galery</a>
+                    <a class="nav-link text-dark" href="#feature">Education</a>
                   </li>
                 <li class="nav-item d-md-none">
-                  <a class="nav-link text-dark" href="#works">Projects</a>
+                  <a class="nav-link text-dark" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item ms-2 d-none d-md-inline">
-                    <a class="btn btn-outline-dark" href="#works">Projects</a>
+                    <a class="btn btn-outline-dark" href="#projects">Projects</a>
                   </li>
                 
               </ul>
@@ -353,10 +404,13 @@
         </div>
     </nav>
 
+
+    
+
     
     
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
