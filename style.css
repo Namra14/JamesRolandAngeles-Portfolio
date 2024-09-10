@@ -28,6 +28,14 @@ html{
     object-fit: cover;
     width: 100%;
 }
+
+#see{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 46%;
+}
+
 /* Education */
 #educ{
     padding-bottom: 100px;
