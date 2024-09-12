@@ -119,3 +119,9 @@ html{
 .footer p {
     margin: 0;
 }
+.footer-nav{
+    margin-bottom: -115px;
+}
+.footer-c{
+    margin-top: 100px;
+}
