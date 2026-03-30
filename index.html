@@ -3,312 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Portfolio | James Roland L. Angeles</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="history.css">
-    <title>Portfolio- Angeles</title>
-
-</head>
-<body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
-
-<!--Navbar TOGGLE BUTTON-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#main-nav" aria-controls="main-nav" 
-            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!--Navbar LINKS-->
-            <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
-              <ul class="navbar-nav fw-bold ">
-                <li class="nav-item active">
-                  <a class="nav-link text-dark" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="#sk">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#feature">Education</a>
-                  </li>
-                <li class="nav-item d-md-none">
-                  <a class="nav-link text-dark" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item ms-2 d-none d-md-inline">
-                    <a class="btn btn-outline-dark" href="#projects">Projects</a>
-                  </li>
-                
-              </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!--Intro-->
-    <section id="intro">
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-5 text-center text-md-start">
-                    <h1>
-                        <div class="display-4 fw-bold my-3">James Roland Angeles</div>
-                        <h3 class="text-muted fst-italic my-3">BS Information Technology Graduate</h3>
-                    </h1>
-                    <a href="index.html#about-me" class="btn btn-outline-secondary btn-lg mt-3">About Me!</a>
-                </div>
-                <div class="col-md-4 text-center d-none d-md-block">
-                    <img src="img/cv-image1.png" alt="" class="img-fluid rounded" width="280px">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Aboutme-->
-    <section id="aboutme" class="bg-light">
-        <div class="container-xl">
-            <div class=" text-center">
-                <h2 class="display-5 fw-bold" id="about-me">About Me</h2>
-            </div>
-
-            <div class="row my-2 g-5 justify-content-around align-items-center g-5">
-                <!-- <div class="col-6 col-lg-4">
-                    <img src="img/about-pic.jpg" class="img-fluid rounded shadow-4-strong" alt="mypicture">
-                </div> -->
-                <!-- Carousel -->
-                <div class="col-12 col-md-4">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner shadow-lg">
-                            <div class="carousel-item active">
-                                <img src="img/about-pic.jpg" alt="My Pictures">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/a1.jpg"alt="My Pictures">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/p1.jpg" alt="My Pictures">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/a2.jpg" alt="My Pictures">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Accordion -->
-                <div class="col-12 col-md-8">
-                    <div class="accordion" id="about">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading-1">
-                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" 
-                                data-bs-target="#about-1" aria-expanded="true" aria-controls="about-1">Introduction</button>
-                            </h2>
-                            <div id="about-1" class="accordion-collapse collapse show" 
-                                aria-labelledby="heading-1" data-bs-parent="#about">
-                                <div class="accordion-body">
-                                    <p>I am an enthusiastic and innovative Information Technology graduate with a
-                                        specialization in Web and Mobile Application Development, eager to embark on a
-                                        dynamic career path. Seeking a position with a forward-thinking organization
-                                        where I can apply my creative mentality, technical expertise, and passion for
-                                        cutting-edge technology to make a meaningful contribution. I am excited to be a
-                                        part of a team that values continuous learning, encourages growth, and pushes
-                                        the boundaries of what is possible in the field of technology.</p>
-                                        
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading-2">
-                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" 
-                                data-bs-target="#about-2" aria-expanded="true" aria-controls="about-2">About My Self</button>
-                            </h2>
-                            <div id="about-2" class="accordion-collapse collapse" 
-                                aria-labelledby="heading-2" data-bs-parent="#about">
-                                <div class="accordion-body">
-                                    <p>My name is James Roland L. Angeles, and I currently reside in Calauan Laguna.
-                                         I am 22 years old. I am the eldest son of Roberto and Novelyn Angeles, 
-                                         and I am a student at Laguna State Polytechnic University SPCC. I have one brother.</p>
-                                        
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading-3">
-                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" 
-                                data-bs-target="#about-3" aria-expanded="true" aria-controls="about-3">About My Hobbies</button>
-                            </h2>
-                            <div id="about-3" class="accordion-collapse collapse " 
-                                aria-labelledby="heading-3" data-bs-parent="#about">
-                                <div class="accordion-body">
-                                    <p>I enjoy playing online games and learning about web design. 
-                                        and visiting the gym to maintain my health and fitness. Cycling and basketball are my sports.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Project Cards-->
-    <section class="">
-        <div class="container-xxl">
-            <div class="text-center">
-                <h2 class="display-5 fw-bold" id="projects">My Projects</h2>
-                <p class="text-muted">Explore with my projects</p>
-            </div>
-
-            <div class="row my-1 align-items-center justify-content-center g-5">
-                <div class="col-8 col-lg-5 col-xl-3" id="pro-card1">
-                    <div class="card">
-                        <img src="img/Home.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center py-5 my-4">
-                          <h5 class="card-title text-dark fw-bold fs-5">Specialization/Recommendation System- UI Design</h5>
-                          <p class="card-text mx-5 text-muted d-none d-lg-block">for College of Computer Studies in LSPU-SPCC</p>
-                          <a href="https://namra14.github.io/SpeciaizationRecomendationUI/" class="btn btn-outline-secondary mt-3" target="_blank">Explore</a>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col-10 col-lg-5 col-xl-3" id="pro-card2">
-                    <div class="card">
-                        <img src="img/Artuks.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center py-5 my-4">
-                          <h5 class="card-title text-dark fw-bold">Artuks Sportswear</h5>
-                          <p class="card-text mx-5 text-muted d-none d-lg-block">Using HTML, CSS, JS and PHP</p>
-                          <a href="https://namra14.github.io/ArtuksSportswear-main/" class="btn btn-outline-secondary mt-3" target="_blank">Explore</a>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col-10 col-lg-5 col-xl-3" id="pro-card3">
-                    <div class="card">
-                        <img src="img/aw.png" class="card-img-top " alt="...">
-                        <div class="card-body text-center py-5 my-4">
-                          <h5 class="card-title text-dark fw-bold">Online Agriculture Insurance Registry System- UI Design</h5>
-                          <a href="https://namra14.github.io/Agri-UI/" class="btn btn-outline-secondary my-4" target="_blank">Explore</a>
-                        </div>
-                      </div>
-                </div>
-
-
-                </div>
-            </div>
-        </div>
-
-        <a href="Projects.html" class="btn btn-outline-secondary my-4 text-center d-flex justify-content-center align-items-center" target="_blank" id="see">See more</a>
-
-    </section>
-
-    <!-- Education -->
-        <div class="container text-dark text-center">
-            <h3 class="display-5 p-2 fw-bold" id="feature">EDUCATION</h3>
-            <div class="timeline">
-
-                <div class="container1 left-container shadow-lg">
-                    <div class="text-box">
-                        <h2>Elementary</h2>
-                        <p class="text-center">
-                            <span class="fw-bold py-5">2008-2014</span><br><br>
-                            Lamot 2 Annex Elementary School
-                        </p>
-                        <span class="left-container-arrow"></span>
-                    </div>
-                </div>
-
-                <div class="container1 right-container shadow-lg">
-                    <div class="text-box">
-                        <h2>Secondary</h2>
-                        <p class="text-center">
-                            <span class="fw-bold py-5">2014-2020</span><br><br>
-                            Liceo de Calauan
-                        </p>
-                        <span class="right-container-arrow"></span>
-                    </div>
-                </div>
-
-                <div class="container1 left-container shadow-lg">
-                    <div class="text-box">
-                        <h2>Tertiary</h2>
-                        <p class="text-center">
-                            <span class="fw-bold py-5">20200-2024</span><br><br>
-                            Laguna State Polytechnic University - San Pablo City Campus
-                        </p>
-                        <span class="left-container-arrow"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-   <!-- SKILL SECTION -->
-    <section id="skills" class="bg-light">
-        <div class="container-fluid">
-                <h1 class="fw-bold text-center" id="sk">SKILLS</h1>
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 py-2">
-                            <div class="card border-2 shadow-lg" id="skills-card">
-                                <div class="card-body text-center py-5">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
     
-                                    <!--Technical button-->
-                                    <button class="btn btn-outline-dark btn-md mx-5 fw-bolder" type="button" data-bs-toggle="offcanvas" 
-                                    data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Technical</button>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="history.css"> 
+</head>
+    <body>
 
-                                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
-                                        <div class="offcanvas-header">
-                                            <h5 id="offcanvasLeftLabel" class="fw-bold tech">Technical Skills</h5>
-                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body">
-                                            <ul>
-                                                <li>HTML5</li>
-                                                <li>CSS</li>
-                                                <li>JAVASCRIPT</li>
-                                                <li>BOOSTRAP</li>
-                                                <li>React</li>
-                                                <li>MySQL</li>
-                                                <li>Git Version Control System</li>
-                                                <li>Github</li>
-                                                <li>Web Designing</li>
-                                                <li>Responsive Design</li>
-                                                <li>UI/UX Design</li>
-                                                <li>Web Performance Optimization</li>
-                                                <li>Website Troubleshooting</li>
-                                                <li>Hardware and Software Troubleshooting</li>
-                                            </ul>
-                                        </div>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+            <div class="container">
+                <a href="index.html" class="navbar-brand fw-bold">
+                    <span class="text-secondary"><i class="bi bi-code-slash me-2"></i></span>James A.
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+                    <ul class="navbar-nav align-items-center fw-semibold">
+                        <li class="nav-item"><a class="nav-link px-3" href="#intro">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="#sk">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="#feature">Education</a></li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-secondary rounded-pill px-4" href="#projects">View Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- MY HERO PART -->
+        <section id="intro" class="d-flex align-items-center min-vh-100">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-7 text-center text-md-start">
+                        <h6 class="text-secondary fw-bold text-uppercase ls-2">Available for Work</h6>
+                        <h1 class="display-3 fw-bold mb-3">James Roland Angeles</h1>
+                        <h3 class="h4 text-muted mb-4 position">WEB DEVELOPER ASSOCIATE</h3>
+                        <p class="lead text-muted mb-5" style="max-width: 500px;">
+                            Crafting seamless digital experiences through clean code and user-centric design.
+                        </p>
+                        <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                            <a href="#aboutme" class="btn btn-secondary btn-lg rounded-pill px-5 btn-see-all">About Me</a>
+                            <a href="https://github.com/namra14" target="_blank" class="btn btn-outline-dark btn-lg rounded-pill px-4"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <div class="hero-img-container">
+                            <img src="img/profile.png" alt="James Roland" class="img-fluid hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section id="aboutme" class="py-5 bg-light">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold" id="about-me">The Developer Behind the Code</h2>
+                    <div class="mx-auto bg-secondary" style="height: 4px; width: 50px; border-radius: 2px;"></div>
+                </div>
+
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div id="aboutCarousel" class="carousel slide shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"><img src="img/j2.jpg" class="d-block w-100" alt="Me"></div>
+                                <div class="carousel-item"><img src="img/j3.jpg" class="d-block w-100" alt="Me"></div>
+                                <div class="carousel-item"><img src="img/j5.jpg" class="d-block w-100" alt="Me"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="accordion accordion-flush custom-accordion" id="aboutAccordion">
+                            <div class="accordion-item shadow-sm mb-3 rounded border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-bold rounded" type="button" data-bs-toggle="collapse" data-bs-target="#acc1">
+                                        <i class="bi bi-person-badge me-2 text-secondary"></i> Introduction
+                                    </button>
+                                </h2>
+                                <div id="acc1" class="accordion-collapse collapse show" data-bs-parent="#aboutAccordion">
+                                    <div class="accordion-body text-muted">
+                                    I am a motivated Web Developer specializing in e-commerce and custom web solutions, with experience in UI/UX design using Figma. I enjoy working in collaborative environments where ideas and creativity come together to build intuitive and engaging digital experiences. My goal is to deliver high-quality work that not only meets business needs but also creates a real and lasting impact for users.
                                     </div>
-
-                                    <!--Professional button-->
-                                    <button class="btn btn-outline-dark btn-md mx-5 fw-bolder" type="button" data-bs-toggle="offcanvas" 
-                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Professional</button>
-
-                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                        <div class="offcanvas-header">
-                                            <h5 id="offcanvasRightLabel" class="fw-bold prof">Professional Skills</h5>
-                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body">
-                                            <ul>
-                                                <li>Collaboration and Communication</li>
-                                                <li>Adaptability</li>
-                                                <li>Critical ThinkingCritical Thinking</li>
-                                                <li>Team Work</li>
-                                                <li>Problem-Solving</li>
-                                                <li>Willing to Learn</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item shadow-sm mb-3 rounded border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold rounded" type="button" data-bs-toggle="collapse" data-bs-target="#acc2">
+                                        <i class="bi bi-geo-alt me-2 text-secondary"></i> Background
+                                    </button>
+                                </h2>
+                                <div id="acc2" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                                    <div class="accordion-body text-muted">
+                                        24-year-old IT graduate from Calauan, Laguna. I value responsibility and hard work, traits I've honed as the eldest sibling.
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -316,90 +115,197 @@
             </div>
         </section>
 
-    <!--Certifications-->
-    <section id="prog" class="bg-light">
-        <div class="container my-3">
-            <div class="row justify-content-center my-5">
-                <h2 class=" display-5 text-center fw-bold">CERTIFICATIONS</h2>
-                <div class="col-9 col-xl-9 my-5">
-                    <ul class="text-center fw-bold list-unstyled cert">
-                        <li><a href="https://drive.google.com/file/d/1gLul15Uk8U-27kVmPpIZ4ib12t7ZI0ol/view?usp=sharing" class=" text-dark" target="_blank">"Web Developemnt for Web Developers"</a></li>
-                        <li><a href="https://drive.google.com/file/d/1gCMgV7K1qqJqZcG7UEmQV3siftBsumla/view?usp=sharing" class=" text-dark" target="_blank">"Basic of Cybersecurity Incedent Response and Handling"</a></li>
-                        <li><a href="https://drive.google.com/file/d/1gMQ7iy4N_4C1_bnlVkVT0n3edhXhPqJx/view?usp=sharing" class=" text-dark" target="_blank">"Mastering Data Analysis with Power of Pivot Tables"</a></li>
-                    </ul>
+        <!-- MY PROJECTS -->
+        <section id="projects" class="py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold">Recent Projects</h2>
+                    <p class="text-muted">A glimpse of my latest web applications</p>
                 </div>
-
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm project-card">
+                            <img src="img/hotel.png" class="card-img-top" alt="Artuks">
+                            <div class="card-body p-4 text-center">
+                                <h5 class="fw-bold">VS Hotel Official Website</h5>
+                                <p class="small text-muted">Responsive hotel website with booking and facility showcase.</p>
+                                <a href="https://www.vshotel.com.ph/" class="btn btn-outline-secondary rounded-pill w-100 mt-2" target="_blank">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm project-card">
+                            <img src="img/vsc-off.png" class="card-img-top" alt="Specialization">
+                            <div class="card-body p-4 text-center">
+                                <h5 class="fw-bold">Victoria Sports Club</h5>
+                                <p class="small text-muted">Interactive site for sports facilities, memberships, and programs.</p>
+                                <a href="https://www.victoriasportsclub.com/" class="btn btn-outline-secondary rounded-pill w-100 mt-2" target="_blank">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="Projects.html" class="btn btn-secondary btn-lg rounded-pill px-5 btn-see-all">See All Projects</a>
+                </div>
             </div>
+        </section>
 
-                  
+        <!-- MY EDUCATION -->
+        <section id="feature" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="display-5 fw-bold text-center mb-5">EDUCATION</h2>
+                <div class="timeline">
+                    <div class="container1 left-container">
+                        <div class="text-box shadow-sm">
+                            <h4 class="fw-bold">Elementary</h4>
+                            <span class="badge bg-secondary mb-2">2008-2014</span>
+                            <p class="mb-0">Lamot 2 Annex Elementary School</p>
+                        </div>
+                    </div>
+                    <div class="container1 right-container">
+                        <div class="text-box shadow-sm">
+                            <h4 class="fw-bold">Secondary</h4>
+                            <span class="badge bg-secondary mb-2">2014-2020</span>
+                            <p class="mb-0">Liceo de Calauan</p>
+                        </div>
+                    </div>
+                    <div class="container1 left-container">
+                        <div class="text-box shadow-sm">
+                            <h4 class="fw-bold">Tertiary</h4>
+                            <span class="badge bg-secondary mb-2">2020-2024</span>
+                            <p class="mb-0 text-dark">Laguna State Polytechnic University - SPC Campus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY SKILLS -->
+        <section id="sk" class="py-5">
+            <div class="container text-center py-5">
+                <h2 class="fw-bold display-5 mb-5">TECHNICAL EXPERTISE</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-5">
+                        <div class="skill-card p-5 shadow-sm border rounded-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft">
+                            <i class="bi bi-cpu fs-1 text-secondary mb-3"></i>
+                            <h4 class="fw-bold">Technical Skills</h4>
+                            <p class="text-muted small">Coding, Databases & Tools</p>
+                            <span class="btn btn-sm btn-outline-secondary rounded-pill">View List</span>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="skill-card p-5 shadow-sm border rounded-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                            <i class="bi bi-people fs-1 text-secondary mb-3"></i>
+                            <h4 class="fw-bold">Professional Skills</h4>
+                            <p class="text-muted small">Soft Skills & Management</p>
+                            <span class="btn btn-sm btn-outline-secondary rounded-pill">View List</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="fw-bold">Technical Skills</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> HTML5 / CSS3</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> JavaScript / React</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Bootstrap 5</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> MySQL / PHP</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Git Version Control System / Github</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Web Designing / Responsive Design / UI/UX Design</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Web Performance Optimization / Website Troubleshooting / Hardware and Software Troubleshooting</li>
+                </ul>
             </div>
         </div>
-    </section>
 
-    <!--Footer-->
-    <footer class="footer text-dark text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5 class="fw-bold">Contact Us</h5>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-telephone-fill"></i>09772717552</li>
-                        <li><i class="bi bi-envelope-at-fill"></i>jamesangeles0314@gmail.com</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h5 class="fw-bold">Follow Me</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="https://www.facebook.com/SantiagoAngeless" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                        <li><a href="https://www.instagram.com/james_otiago/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/in/james-roland-l-angeles-770a822b6/?originalSubdomain=ph" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-                    </ul>
-                </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="fw-bold">Professional Skills</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <p>&copy; 2024 James Roland L. Angeles. All Rights Reserved.</p>
-                </div>
+            <div class="offcanvas-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Collaboration and Communication</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Adaptability</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Critical ThinkingCritical Thinking</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Team Work</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Problem-Solving</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check2-circle text-secondary me-2"></i> Willing to Learn</li>
+                </ul>
             </div>
         </div>
-    </footer>
-    <!-- FOOTER NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light footer-nav">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
 
-        <!--Navbar TOGGLE BUTTON-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#main-nav" aria-controls="main-nav" 
-            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-        </button>
 
-        <!--Navbar LINKS-->
-            <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
-              <ul class="navbar-nav fw-bold ">
-                <li class="nav-item active">
-                  <a class="nav-link text-dark" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="#sk">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#feature">Education</a>
-                  </li>
-                <li class="nav-item d-md-none">
-                  <a class="nav-link text-dark" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item ms-2 d-none d-md-inline">
-                    <a class="btn btn-outline-dark" href="#projects">Projects</a>
-                  </li>
-                
-              </ul>
+        <!-- MY CERTIFICATIONS -->
+        <section id="certifications" class="py-5 bg-white border-top">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bold">CERTIFICATIONS</h2>
+                        <p class="text-muted">Professional growth and specialized training</p>
+                    </div>
+                    
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-4">
+                            <a href="https://drive.google.com/file/d/1gLul15Uk8U-27kVmPpIZ4ib12t7ZI0ol/view" target="_blank" class="text-decoration-none text-dark">
+                                <div class="cert-card p-4 shadow-sm border rounded-4 h-100 text-center">
+                                    <i class="bi bi-patch-check fs-1 text-secondary mb-3"></i>
+                                    <h5 class="fw-bold mb-2">Web Development for Web Developers</h5>
+                                    <p class="small text-muted mb-0">Professional Certification</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <a href="https://drive.google.com/file/d/1gCMgV7K1qqJqZcG7UEmQV3siftBsumla/view" target="_blank" class="text-decoration-none text-dark">
+                                <div class="cert-card p-4 shadow-sm border rounded-4 h-100 text-center">
+                                    <i class="bi bi-shield-lock fs-1 text-secondary mb-3"></i>
+                                    <h5 class="fw-bold mb-2">Basic of Cybersecurity Incident Response</h5>
+                                    <p class="small text-muted mb-0">Security & Handling</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="#" target="_blank" class="text-decoration-none text-dark">
+                                <div class="cert-card p-4 shadow-sm border rounded-4 h-100 text-center">
+                                    <i class="bi bi-table fs-1 text-secondary mb-3"></i>
+                                    <h5 class="fw-bold mb-2">Mastering Data Analysis with Power of Pivot Tables</h5>
+                                    <p class="small text-muted mb-0">Data Visualization</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-secondary text-white py-5">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-6 text-center text-md-start">
+                        <h5 class="fw-bold mb-3 Oswald">Let's Connect</h5>
+                        <p class="mb-1"><i class="bi bi-telephone me-2"></i> 0977 271 7552</p>
+                        <p><i class="bi bi-envelope me-2"></i> jamesangeles0314@gmail.com</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <h5 class="fw-bold mb-3 Oswald">Socials</h5>
+                        <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                            <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-4 opacity-25">
+                <p class="text-center small opacity-50 mb-0">&copy; 2026 James Roland Angeles. Built with Passion.</p>
             </div>
-        </div>
-    </nav>
-    
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
