@@ -142,7 +142,6 @@ h2, h3, .Oswald {
 /* Utils */
 .ls-2 { letter-spacing: 2px; }
 section{
-    padding-top: 5%;
     font-family: "Oswald", sans-serif;
 }
 html{
